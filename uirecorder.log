@@ -1,0 +1,89 @@
+    __  ______   ____                           __         
+   / / / /  _/  / __ \___  _________  _________/ /__  _____
+  / / / // /   / /_/ / _ \/ ___/ __ \/ ___/ __  / _ \/ ___/
+ / /_/ // /   / _, _/  __/ /__/ /_/ / /  / /_/ /  __/ /    
+ \____/___/  /_/ |_|\___/\___/\____/_/   \__,_/\___/_/    v3.5.3
+
+Official Site: http://uirecorder.com
+------------------------------------------------------------------
+
+? 测试脚本文件名: (sample/test.spec.js) ? 测试脚本文件名: (sample/test.spec.js) s? 测试脚本文件名: (sample/test.spec.js) sa? 测试脚本文件名: (sample/test.spec.js) sam? 测试脚本文件名: (sample/test.spec.js) samp? 测试脚本文件名: (sample/test.spec.js) sampl? 测试脚本文件名: (sample/test.spec.js) sample? 测试脚本文件名: (sample/test.spec.js) sample/? 测试脚本文件名: (sample/test.spec.js) sample/t? 测试脚本文件名: (sample/test.spec.js) sample/te? 测试脚本文件名: (sample/test.spec.js) sample/tes? 测试脚本文件名: (sample/test.spec.js) sample/test? 测试脚本文件名: (sample/test.spec.js) sample/testx? 测试脚本文件名: (sample/test.spec.js) sample/testxx? 测试脚本文件名: (sample/test.spec.js) sample/testxx.? 测试脚本文件名: (sample/test.spec.js) sample/testxx.j? 测试脚本文件名: (sample/test.spec.js) sample/testxx.js? 测试脚本文件名: sample/testxx.js
+? 文件已存在，加载并继续录制吗？ (y/N) ? 文件已存在，加载并继续录制吗？ (y/N) y? 文件已存在，加载并继续录制吗？ Yes
+? 打开同步校验浏览器？ (Y/n) ? 打开同步校验浏览器？ (Y/n) n? 打开同步校验浏览器？ No
+
+录制服务器监听在端口: 54329
+录制浏览器已开启
+  -------------- start load sample/testxx.js --------------
+  url: https://itest.clife.net/platformAdmin/aFan/index.html#/login
+   √ 执行成功
+  waitBody: 
+   √ 执行成功
+  click: #normal_login_username, 62, 23, 0
+   √ 执行成功
+  sendKeys: 13128912709
+   √ 执行成功
+  click: #normal_login_password, 86, 24, 0
+   √ 执行成功
+  sendKeys: 123456{ENTER}
+   √ 执行成功
+  click: 合作商品 ( //span[text()="合作商品"], 35, 6, 0 )
+   √ 执行成功
+  scrollElementTo: #container aside, 0, 31
+   √ 执行成功
+  click: 合作商品管理 ( //a[text()="合作商品管理"], 53, 13, 0 )
+   √ 执行成功
+  click: 新 建 ( #container button.ant-btn-primary, 19, 12, 0 )
+   √ 执行成功
+  click: 商品名称 ( #add_goodsName, 32, 13, 0 )
+   √ 执行成功
+  sendKeys: UItia{BACK_SPACE}{BACK_SPACE}{BACK_SPACE}添加
+   √ 执行成功
+  click: 商品价格 ( #add_goodsPrice, 30, 18, 0 )
+   √ 执行成功
+  sendKeys: 123
+   √ 执行成功
+  scrollElementTo: #container section > section.ant-layout, 0, 300
+   √ 执行成功
+  click: input[value="1"], 7, 8, 0
+   √ 执行成功
+  uploadFile: input[type="file"], 1.jpg
+   √ 执行成功
+  switchFrame: #add_content iframe
+   √ 执行成功
+  click: body, 86, 35, 0
+   √ 执行成功
+  sendKeys: 哈哈哈
+   √ 执行成功
+  switchFrame: null
+   √ 执行成功
+  scrollElementTo: #container section > section.ant-layout, 0, 499
+   √ 执行成功
+  sleep: 3000
+   √ 执行成功
+  click: 确 定 ( #container button.ant-btn-primary, 47, 17, 0 )
+   √ 执行成功
+  scrollElementTo: #container section > section.ant-layout, 0, 0
+   √ 执行成功
+  click: 下架商品 ( //div[text()="下架商品"], 39, 23, 0 )
+   √ 执行成功
+  expect: text, //div[text()="UI添加"], equal, UI添加
+   √ 执行成功
+  click: 分成设置 ( #container tr:nth-child(1) > td:nth-child(8) > span > span:nth-child(4) > span.blue_font, 19, 2, 0 )
+   √ 执行成功
+  scrollElementTo: #container section > section.ant-layout, 0, 100
+   √ 执行成功
+  click: 参与分成 ( //a[text()="参与分成"], 20, 12, 0 )
+   √ 执行成功
+  -------------- end load sample/testxx.js --------------
+  click: 0.00 ( #container div.hetBeauty-form-input-static > span:nth-child(1), 23, 12, 0 )
+  click: #container i.anticon-edit > svg > path, 5, 5, 0
+  sendKeys: {BACK_SPACE}{BACK_SPACE}{BACK_SPACE}{BACK_SPACE}12
+  click: % ( #container td:nth-child(4), 124, 34, 0 )
+  scrollElementTo: #container section > section.ant-layout, 0, 424
+  scrollElementTo: #container section > section.ant-layout, 0, 0
+------------------------------------------------------------------
+共录制6个步骤 (未经过校验)
+录制脚本已保存: sample/testxx.js
+
+录制服务器已关闭
+录制浏览器已关闭

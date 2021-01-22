@@ -1,0 +1,12 @@
+{
+  "name": "macaca-reporter",
+  "distDir": "E:\\test13",
+  "reporterOptions": {
+    "reportJSONFilename": "index",
+    "processAlwaysExitWithZero": "true"
+  },
+  "globals": [],
+  "files": [
+    "E:\\test13\\sample\\testx.js"
+  ]
+}
